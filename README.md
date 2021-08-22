@@ -1,17 +1,22 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+August 22, 2021
 
 ### Project Title
-Replace the Project Title
+Udacity Bikeshare project 
 
 ### Description
-Describe what your project is about and what it does
+This project allows users to explore bikeshare data.  You may select one of the following cities: Chicago, New York, or Washington D.C. You may then select which month and day you'd like to see information for (all is an option for these as well). Once the user completes the promt correctly, it will display statistics for stations, drip duration, and users.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I referenced the following items when building my bikeshare project:
+https://stackoverflow.com/questions/6557553/get-month-name-from-number
+https://www.geeksforgeeks.org/python-get-key-from-value-in-dictionary/
+https://stackoverflow.com/questions/26488769/need-help-converting-total-number-of-minutes-into-hour-and-minute-format
+https://www.w3schools.com/python/ref_string_format.asp
+https://www.geeksforgeeks.org/python-statistics-mode-function/
 
