@@ -25,8 +25,7 @@ def get_filters():
     
     while city not in city_list:
         print('\nWhich city would you like to see information for?')  
-        print('\nPlease input ONE of the following: Chicago, New York City
-              , or Washington')
+        print('\nPlease input ONE of the following: Chicago, New York City, or Washington')
         city = input().lower()
         
         if city not in city_list:
@@ -118,11 +117,11 @@ def time_stats(df):
     month_dict = {1: 'January', 2: 'February', 3: 'March', 4:'April', 5: 'May', 6: 'June'}
     popular_month_no = df['month'].mode()[0]
     popular_month = month_dict[popular_month_no]
-    print('\nThe most popular month is {}'.format(popular_month))
+    print('\nThe most popular month to travel is {}'.format(popular_month))
     
     # display the most common day of week
     popular_day = df['day_of_week'].mode()[0]
-    print('\nThe most popular day is {}'.format(popular_day.title()))
+    print('\nThe most popular day to travel is {}'.format(popular_day.title()))
 
     # display the most common start hour
     popular_hour = df['hour'].mode()[0]
