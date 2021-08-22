@@ -5,7 +5,7 @@ August 22, 2021
 Megan Bahamonde's Udacity Bikeshare Project 
 
 ### Description
-This project allows users to explore bikeshare data.  You may select one of the following cities: Chicago, New York, or Washington D.C. You may then select which month and day you'd like to see information for (all is an option for these as well). Once the user completes the promt correctly, it will display statistics for stations, drip duration, and users.
+This project allows users to explore bikeshare data.  You may select one of the following cities: Chicago, New York, or Washington D.C. You may then select which month and day you'd like to see information for (all is an option for these). Once the user completes the prompt correctly, it will display statistics for stations, trip duration, and users.
 
 ### Files used
 chicago.csv
